@@ -1,1 +1,24 @@
-[{"title":"autoheal","name":"autoheal","description":"Simple container to restart others that fail the basic Docker healthcheck function.","logo":"","image":"lostlakkris/autoheal:latest","note":"","categories":["Other","Tools","Maintenance"],"platform":"linux","restart_polcicy":"unless-stopped","volumes":[{"container":"/var/run/docker.sock","bind":"/var/run/docker.sock"}]}]
+[
+  {
+    "type": 1,
+    "title": "autoheal",
+    "name": "autoheal",
+    "description": "Simple container to restart others that fail the basic Docker healthcheck function.",
+    "logo": "",
+    "image": "lostlakkris/autoheal:latest",
+    "note": "",
+    "categories": [
+      "Other",
+      "Tools",
+      "Maintenance"
+    ],
+    "platform": "linux",
+    "restart_polcicy": "unless-stopped",
+    "volumes": [
+      {
+        "container": "/var/run/docker.sock",
+        "bind": "/var/run/docker.sock"
+      }
+    ]
+  }
+]
